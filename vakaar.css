@@ -76,6 +76,7 @@ h4{
   color: red;
   text-align: center;
   font-size: 30px;
+  margin-top: 10px;
 }
 
 button{
@@ -83,7 +84,7 @@ button{
   margin-top: 12px;
   font-size: 30px;
   background-color: lightseagreen;
-  color: purple;
+  color: red;
   border-bottom-color: red;
   border-bottom-style: inline;
 }
@@ -91,6 +92,30 @@ button :hover{
   background-color: red;
   color: greenyellow;
 }
+.milad-date{
+  text-align: center;
+  color: aqua;
+  margin-top: 20px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from{
+      text-shadow: 0 0 20px #fff, 0 0 30px #99ffff, 0 0 40px #99ffff;
+  }
+  to{
+    text-shadow: 0 0 20px #fff, 0 0 30px #99ffff, 0 0 40px #99ffff
+  }
+}
+.date{
+  background-color: #097969;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color:yellow;
+}
+
 
 footer{
   margin-top: 28px;
